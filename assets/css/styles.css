@@ -1,0 +1,105 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*Predefined CSS*/
+.size-1{
+	font-size: 2.5em;
+}
+.size-2{
+	font-size: 1.5em;
+}
+.upper{
+	text-transform: uppercase;
+}
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span{ 
+	background: #fff;
+}
+
+.condensed{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+/*Main Wrapper*/
+#main-wrapper{
+	font-family: 'Raleway', sans-serif;
+}
+/*Intro Section*/
+#intro{
+
+}
+
+#works{
+	text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#astro{
+	width: 100%;		
+	height: 300px;
+	}
+	#intro-right{
+		text-align: center;
+	}
+	.hide-mobile{
+		display: none;
+	}
+	#portfolio-container{
+		position: relative;
+		top: -80px;
+	}
+	.capstone-title{
+	font-size: 2em;
+	color: orange;
+	}
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+		#astro{
+		width: 100%;
+		height: 500px;
+	}
+	#intro-right{
+		font-size: 2em;
+	}
+	#portfolio-container{
+		position: relative;
+		top: -80px;
+	}
+	.hide-desktop{
+		display: none;
+	}
+	.show-mobile{
+		display: block;
+	}
+		.capstone-title{
+	font-size: 3em;
+	color: orange;
+}
+
+	
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.capstone-title{
+	font-size: 3em;
+	color: orange;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.capstone-title{
+	font-size: 3em;
+	color: orange;
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
