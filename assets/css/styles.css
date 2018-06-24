@@ -57,15 +57,30 @@
 	width: 250px;
 
 }
+/*Progress*/
+#html,
+#bootstrap,
+#php{
+	width: 85%;
+}
+#css,
+#javascript,
+#mysql,
+#laravel{
+	width: 80%;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	#astro{
 	width: 100%;		
-	height: 300px;
+	height: 250px;
 	}
 	#intro-right{
 		text-align: center;
 	}
+	#greetings{
+	font-size: 0.8em;
+}
 	.hide-mobile{
 		display: none;
 	}
@@ -80,7 +95,15 @@
 	.ul-mob{
 		margin-left: 10px;
 	}
-
+	.line-desktop{
+		height: 10px;
+		width: 80%;
+		background-color: orange;
+		border-radius: 30px;
+	}
+	#social{
+		margin-left: 30%;
+	}
 
 } 
 
@@ -117,6 +140,12 @@
 	font-size: 3em;
 	color: orange;
 	}
+	.line-desktop{
+		height: 10px;
+		width: 80%;
+		background-color: orange;
+		border-radius: 30px;
+	}
 	
 } 
 
@@ -126,7 +155,13 @@
 	font-size: 3em;
 	color: orange;
 	}
-	
+	.line-desktop{
+		height: 10px;
+		width: 40%;
+		background-color: orange;
+		border-radius: 30px;
+	}
+		
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
