@@ -13,15 +13,25 @@
 }
 .upper{
 	text-transform: uppercase;
+	font-weight: bold;
 }
 #fp-nav ul li a span, 
 .fp-slidesNav ul li a span{ 
 	background: #fff;
 }
-
-.condensed{
-	font-family: 'Roboto Condensed', sans-serif;
+.poppins{
+	font-family: 'Poppins', sans-serif;
 }
+.line{
+	height: 10px;
+	width: 80%;
+	background-color: orange;
+	border-radius: 30px;
+}
+.hover-white:hover{
+	color: white;
+}
+
 /*Main Wrapper*/
 #main-wrapper{
 	font-family: 'Raleway', sans-serif;
@@ -35,6 +45,18 @@
 	text-align: center;
 }
 
+#profile-avatar{
+	height: 200px;
+}
+
+#contact-info{
+	background-color: orange;
+	padding: 10px;
+	font-size: 0.9em;
+	border-radius: 10px;
+	width: 250px;
+
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	#astro{
@@ -47,14 +69,18 @@
 	.hide-mobile{
 		display: none;
 	}
-	#portfolio-container{
+	.portfolio-container{
 		position: relative;
-		top: -80px;
+		top: -60px;
 	}
 	.capstone-title{
 	font-size: 2em;
 	color: orange;
 	}
+	.ul-mob{
+		margin-left: 10px;
+	}
+
 
 } 
 
@@ -67,7 +93,7 @@
 	#intro-right{
 		font-size: 2em;
 	}
-	#portfolio-container{
+	.portfolio-container{
 		position: relative;
 		top: -80px;
 	}
@@ -80,7 +106,7 @@
 		.capstone-title{
 	font-size: 3em;
 	color: orange;
-}
+	}
 
 	
 } 
@@ -90,7 +116,8 @@
 	.capstone-title{
 	font-size: 3em;
 	color: orange;
-}
+	}
+	
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -98,7 +125,8 @@
 	.capstone-title{
 	font-size: 3em;
 	color: orange;
-}
+	}
+	
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
