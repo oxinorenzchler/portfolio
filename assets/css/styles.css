@@ -61,13 +61,13 @@
 #html,
 #bootstrap,
 #php{
-	width: 85%;
+	width: 75%;
 }
 #css,
 #javascript,
 #mysql,
 #laravel{
-	width: 80%;
+	width: 70%;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
