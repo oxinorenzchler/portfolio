@@ -1,4 +1,3 @@
-/*CSS Reset*/
 *{
 	margin: 0;
 	padding: 0;
@@ -61,13 +60,13 @@
 #html,
 #bootstrap,
 #php{
-	width: 75%;
+	width: 55%;
 }
 #css,
 #javascript,
 #mysql,
 #laravel{
-	width: 70%;
+	width: 50%;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
